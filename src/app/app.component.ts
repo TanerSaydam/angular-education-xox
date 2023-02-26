@@ -70,6 +70,7 @@ export class AppComponent {
 
   newGame() {
     this.games = [];
+    this.gameMoves = [];
     for (let i = 0; i < 9; i++) {
       this.games.push({ id: i, value: "" });
     }
